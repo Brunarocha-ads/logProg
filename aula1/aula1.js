@@ -31,6 +31,14 @@ a= a + b;//30
 b= a-b; //10
 a=a -b; //20
 
+criando mais uma variavel
+//var a=10;
+//var b=20;
+var aux=a
+a=b;
+b=aux;
+
+
 console.log(`variavel A: ${a}`);
 console.log(`variavel b: ${b}`);*/
 
@@ -130,7 +138,84 @@ pode substituir o if else
 
 
 funções- é um bloco de código que executa um conjunto de instruções
-reutilização de codigos -
+reutilização de codigos -*/
+
+/* a ultima é que vale
+var numero 19;
+numero1= 23;
+numero= 23;
+numero = 67;
+numero1 = numero1 +numero1;
+alert (numero1);
+
+/* aula 1 js digitalColege
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programa em JS</title>   
+    <style> 
+        body{
+            background: #000;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá JS</h1>
+    <script>
+        // alert('Olá Jovem!');
+        // alert('Tudo bem?');
+        // COMENTÁRIOS
+
+        // Declarando variáveis
+        // var nome = "Max"
+        // nome = "Ferreira";
+        // var numero = 10;
+        // var numeroDecimal = 105.5;
+        // var resultado = numero + numeroDecimal;
+        // alert(resultado)
+        // alert(nome + resultado);
+        
+        // var a = 10;
+        // var b = 20;
+
+        // alert(a); // 20
+        // alert(b); // 10
+
+        var numero1 = 10;
+        numero1 = 20;
+        numero1 = 30;
+        numero1 = 30 + 1;
+        numero1 = 40;
+        numero1 = numero1 + numero1;
+        alert(numero1);
+
+
+
+        // Operadores Aritméticos
+        // + Soma
+        // - Subtração
+        // * Multiplicação
+        // / Divisão
+        // % Modulo - Resto da Divisão
+
+        var valor1 = 10;
+        var valor2 = 21;
+
+        alert("Soma: " + (valor1 + valor2));
+        alert("Subtraca: " + (valor1 - valor2));
+        alert("Multiplicação: " + (valor1 * valor2)); 
+        alert("Divisão: " + (valor1 / valor2)); 
+        alert("Mod: " + (valor1 % valor2)); 
+    </script>
+</body>
+</html>
+
+alteração
+
+
 
 
 
